@@ -1,0 +1,19 @@
+#icons {
+margin: 0px;
+padding: 0px;
+}
+.icon-pic {
+margin: 0px;
+padding: 0px;
+float: left;
+width: 170px;
+text-align: center;
+}
+.icon-pic p {
+}
+
+.icon-fr {
+margin: 0px 0px 0px 2em;
+padding: 0px;
+float: right;
+}

@@ -1,0 +1,98 @@
+@charset "utf-8";
+#project-1 {
+margin: 0px 0px 2em;
+padding: 0px;
+}
+#project-1 img {
+margin: 0px 2em 0px 0px;
+padding: 0px;
+float: left;
+
+}
+.project-thumb-fr {
+margin: 0px 0px 1em 1em;
+padding: 0px;
+float: right;
+}
+
+/* CSS Document */
+
+#project-div {
+margin: 0px;
+padding: 0px;
+}
+
+#project-div h1 {
+color: #474351;
+margin-bottom: 1em;
+font-size: 1.7em;
+}
+
+#project-div h2 {
+color: #CD3625;
+margin-bottom: 0.75em;
+font-size: 1.3em;
+}
+
+#project-div h3 {
+color: #647795;
+margin: 0px 0px 1em .5em;
+padding: 0px;
+font-size: 1.2em;
+font-weight: bold;
+}
+
+#project-div h4 {
+color: #793329;
+margin: 0px 0px 1em;
+padding: 0px;
+font-style: normal;
+font-size: 1.2em;
+}
+
+#project-div p {
+margin-left: .5em;
+}
+.hr-big {
+background-color: #FFFFFF;
+height: 1px;
+margin: 36px auto;
+width: 90%;
+border-bottom: 1px solid #D6D6D6;
+text-align: center;
+padding: 0px;
+clear: both;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.hr-small {
+background-color: #FFFFFF;
+height: 1px;
+margin: 2em auto;
+width: 90%;
+border-bottom: 1px solid #F2F2F2;
+text-align: center;
+padding: 0px;
+}
+
+.letter {
+background: #CCCCCC;
+margin: 0px 1em 2em 0px;
+padding: 0.5em;
+float: left;
+border: 1px solid #999999;
+}
+
+.map {
+background: #CCCCCC;
+margin: 0px 1em;
+padding: .25em;
+float: right;
+border: 1px solid #999999;
+}
+
+#elluminate-flash {
+margin: 2em 0px 0px;
+padding: 0px;
+}
