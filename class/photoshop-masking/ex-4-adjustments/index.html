@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Adobe Photoshop | Masking Workshop | Exercise 4: Masking Adjustment Layers</title>
+<link href="../main.css" rel="stylesheet" type="text/css" />
+<link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-328079-29']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div class="out-wrap">
+<div class="top-wrap">
+<div class="top-branding"><a href="../index.html"><img src="../site-media/logo-a-ps.png" width="960" height="121" /></a></div>
+</div>
+<div class="mid-wrap">
+<div id="nav">
+<ul>
+<li><a href="../index.html">What is Masking?</a></li>
+<li>&#8226;</li>
+<li><a href="../ex-1-selections/index.html">Selections</a></li>
+<li><a href="../ex-2-gradient-tool/index.html">Gradient Tool</a></li>
+<li><a href="../ex-3-brush-tool/index.html">Brush Tool</a></li>
+<li>&#8226;</li>
+<li><a class="current" href="index.html">Adjustment Layers</a></li>
+<li><a href="../ex-5-filters/index.html">Smart Filter</a></li>
+</ul>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="content">
+<div class="content-sides">
+<div class="exercise">
+<div class="exercise-description">
+<h1><span class="ex-name">Exercise 4:</span> Masking Adjustment Layers</h1>
+<p>An Adjustment Layer can alter the look of your original image, but on a separate layer. Changes made with Adjustment Layers  					can be tweaked at any time or removed completely with no  					ill affect to your  image. Combining the care-free flexibility of Adjustment Layers with masking can be immensely powerful. In this exercise we will explore the Color Range command and the creation of multiple masked, adjustment layers.</p>
+</div>
+<div class="exercise-objectives">
+<h3>You will know how to:</h3>
+<ol>
+<li>Create a mask based on a color range</li>
+<li>Duplicate a mask</li>
+</ol>
+</div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>1. Open the image to be masked ...</h2>
+<ol>
+<li>Open <a href="ivy.jpg" target="_blank">ivy.jpg</a> in Adobe Photoshop
+<ul>
+<li><em>Source (and thanks to)</em>: <a href="http://www.publicdomainpictures.net/view-image.php?image=9968&amp;picture=ivy-on-house-in-autumn&amp;large=1" target="_blank">Ivy on House in Autumn by Petr Kratochvil</a></li>
+</ul>
+</li>
+<li>Tap the letter 'f' so you're working on a solid grey background
+<ul>
+<li>Note: Tapping 'f' a second time gives you a black background</li>
+<li>Note: Tapping 'f' a third time takes you back to normal viewing mode</li>
+</ul>
+</li>
+<li>From the Menu Bar, go to File &gt; Save As...</li>
+<li>Save your file as a .psd (<a href="psd/1-ivy-original.zip">download ZIPPED .psd of this step</a>)
+<ul>
+<li>a .psd (Photoshop Document) will preserve ALL your layers and settings</li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="1-ivy-original.jpg" alt="1. Open the image to be masked ..." width="290" height="193" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>2. Add a Hue/Saturation adjustment layer …</h2>
+<ol>
+<li>Open the ADJUSTMENTS panel</li>
+<li>Add a Hue/Saturation adjustment layer
+<ul>
+<li>Note: In then layers panel, a Hue/Saturation layer has been added</li>
+<li>Note: Added layers always come in above the layer currently selected</li>
+<li>Note: Photoshop gives you a FREE mask when you add a fill or adjustment layer</li>
+</ul>
+</li>
+<li>Save your file (<a href="psd/2-ivy-hue-saturation.zip">download ZIPPED .psd of this step</a>)</li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="2-ps-hue-saturation.jpg" alt="2. Add a Hue/Saturation adjustment layer …" width="290" height="280" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>3. Create a color range mask …</h2>
+<ol>
+<li>Open the MASKS panel</li>
+<li>With the Hue/Saturation  mask selected, click the [Color Range...] button
+<ul>
+<li>Note: There are 3 <em>selectable</em> thumbnails in the Layers panel</li>
+<li>Note: When masking it is critical to be aware of which thumbnail is selected. Many masking errors and issues result from a user being unaware of which thumbnail is highlighted in the Layers panel </li>
+</ul>
+</li>
+<li>In the Color range dialogue box set the following:
+<ul>
+<li>Under the Preview window, choose Selection (so it shows the color range we are selecting)</li>
+<li>For Selection Preview: None (so we can see our image - greyscale is also a very interesting way to watch this tool work)</li>
+</ul>
+</li>
+<li>In the Color range dialogue box do the following:
+<ul>
+<li>Set the Fuzziness slider to 100 to start with</li>
+<li>Click on a red ivy leaf on the image itself (outside the dialogue box)</li>
+<li>Drag the Fuzziness slider until it appears  that all red Ivy is selected</li>
+<li>Hit OK</li>
+<li>Note: The Color Range dialogue box is very useful and powerful. You should definitely learn more about this feature (study at home)</li>
+</ul>
+</li>
+<li>View your mask:
+<ul>
+<li>On a Mac, Option-click directly on the layer mask thumbnail</li>
+<li>On a PC: Alt-click directly on the layer mask thumbnail</li>
+<li>Click the layer thumbnail to return to normal viewing </li>
+</ul>
+</li>
+<li>Save your file (<a href="psd/3-ivy-color-range.zip">download ZIPPED .psd of this step</a>)</li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="3-ps-color-range.jpg" alt="3. Create a color range mask …" width="290" height="282" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>4. Adjust the Hue/Saturation adjustment layer ...</h2>
+<ol>
+<li>Open the ADJUSTMENTS panel</li>
+<li>Select the Hue/Saturation layer thumbnail</li>
+<li>Experiment with the Hue, Saturation and Lightness sliders
+<ul>
+<li>Note: ONLY the ivy leaves and being adjusted</li>
+</ul>
+</li>
+<li>Save your file (<a href="psd/4-ivy-hue-saturation-adjusted.zip">download ZIPPED .psd of this step</a>)</li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="4-ivy-hue-saturation-adjusted.jpg" alt="4. Adjust the Hue/Saturation adjustment layer ..." width="290" height="193" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>5. Add a Black &amp; White adjustment layer ...</h2>
+<ol>
+<li>In the ADJUSTMENTS panel, click the arrow in the lower-left corner (Return to Adjustment List)</li>
+<li>Add a Black &amp; White adjustment layer
+<ul>
+<li>Note: In then layers panel, a Black &amp; White layer has been added</li>
+<li>Note: Added layers always come in above the layer currently selected</li>
+<li>Note: Photoshop gives you a FREE mask when you add a fill or adjustment layer</li>
+<li>Note: You entire image is now a Black &amp; White</li>
+</ul>
+</li>
+<li>Save your file (<a href="psd/5-ivy-black-white.zip">download ZIPPED .psd of this step</a>) </li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="5-ps-black-white.jpg" alt="5. Add a Black &amp; White adjustment layer ..." width="290" height="280" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>6. Duplicate and invert the mask ...</h2>
+<ol>
+<li>On your keyboard, hold down the Option (Mac) or Alt (PC) key</li>
+<li>Drag the Hue/Saturation mask on top of the Black &amp; White mask</li>
+<li>Agree to the replacement
+<ul>
+<li>Note: Your ivy  now appears black &amp; white</li>
+</ul>
+</li>
+<li>Open the MASKS panel</li>
+<li>With the Black &amp; White  mask selected, click the [Invert] button
+<ul>
+<li>Note: Everything BUT the ivy is now black &amp; white</li>
+</ul>
+</li>
+<li>View your mask:
+<ul>
+<li>On a Mac, Option-click directly on the layer mask thumbnail</li>
+<li>On a PC: Alt-click directly on the layer mask thumbnail</li>
+<li>Click the layer thumbnail to return to normal viewing </li>
+</ul>
+</li>
+<li>Save your file (<a href="psd/6-ivy-duplicate-mask-1.zip">download ZIPPED .psd of this step</a>) </li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="6-ps-duplicate-mask-1.jpg" alt="6. Duplicate and invert the mask ..." width="290" height="280" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>7. Adjust the Black &amp; White adjustment layer ...</h2>
+<ol>
+<li>Open the ADJUSTMENTS panel</li>
+<li>Select the Black &amp; White layer thumbnail</li>
+<li>Experiment with the sliders
+<ul>
+<li>Note: The ivy leaves are NOT being adjusted</li>
+<li>Personal Tip: I typically click the [Auto] button first, then I use the hand with arrows icon (Tooltip: click and drag in image to modify a slider) to drag changes on the image itself</li>
+</ul>
+</li>
+<li>Save your file (<a href="psd/7-ivy-black-white-adjusted.zip">download ZIPPED .psd of this step</a>) </li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="7-ivy-black-white-adjusted.jpg" alt="7. Adjust the Black &amp; White adjustment layer ..." width="290" height="193" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>8. Add a Photo Filter adjustment layer ...</h2>
+<ol>
+<li>In the ADJUSTMENTS panel, click the arrow in the lower-left corner (Return to Adjustment List)</li>
+<li>Add a Photo Filter adjustment layer
+<ul>
+<li>Note the effect: In then layers panel, a Photo Filter layer has been added</li>
+<li>Note: Added layers always come in above the layer currently selected</li>
+<li>Note: Photoshop gives you a FREE mask when you add a fill or adjustment layer</li>
+</ul>
+</li>
+<li>Save your file (<a href="psd/8-ivy-photo-filter.zip">download ZIPPED .psd of this step</a>) </li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="8-ps-photo-filter.jpg" alt="8. Add a Photo Filter adjustment layer ..." width="290" height="280" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>9. Duplicate and invert the mask ...</h2>
+<ol>
+<li>On your keyboard, hold down the Option (Mac) or Alt (PC) key</li>
+<li>Drag the Black &amp; White mask on top of the Photo Filter mask</li>
+<li>Agree to the replacement
+<ul>
+<li>Note: Turn OFF the visibility of the Black &amp; White adjustment layer at this point</li>
+</ul>
+</li>
+<li>Save your file (<a href="psd/9-ivy-duplicate-mask-2.zip">download ZIPPED .psd of this step</a>) </li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="9-ps-duplicate-mask-2.jpg" alt="9. Duplicate and invert the mask ..." width="290" height="280" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+<div class="chunk">
+<div class="chunk-left">
+<h2>10. Adjust a Photo Filter adjustment layer ...</h2>
+<ol>
+<li>Open the ADJUSTMENTS panel</li>
+<li>Select the Photo Filter layer thumbnail</li>
+<li>Experiment with different photo filters
+<ul>
+<li>Note: The ivy leaves are NOT being adjusted</li>
+</ul>
+</li>
+<li>Save your file (<a href="psd/10-ivy-photo-filter-adjusted.zip">download ZIPPED .psd of this step</a>) </li>
+<li>Tap the letter 'f' until you return to normal screen mode</li>
+</ol>
+</div>
+<div class="chunk-right"> <img src="10-ivy-photo-filter-adjusted.jpg" alt="10. Adjust a Photo Filter adjustment layer ..." width="290" height="193" class="img-brd" /></div>
+<div class="clear"><!--clear --></div>
+</div>
+</div>
+</div>
+</div>
+<!--END MIDDLE -->
+<div class="bot-wrap">
+<div class="footer"><img src="../site-media/footer.png" width="960" height="33" /></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.out-wrap {
+background: transparent;
+width: 100%;
+margin: 0;
+}
+
+.top-branding {
+display: none;
+}
+
+#nav {
+display: none;
+}
+
+.footer {
+display: none;
+}
+
+.chunk {
+margin-bottom: 2em;
+}
+
+body {
+background: white;
+}
+
+h1, h2, h3 {
+font: bold 14pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.exercise-description p {
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12pt;
+}
+
+.exercise-objectives ol li {
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12pt;
+}
+
+.chunk-left ol li {
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 12pt;
+}
